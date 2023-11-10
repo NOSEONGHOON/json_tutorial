@@ -23,3 +23,4 @@ def result():
     return Response(result,
                     mimetype='application/json',
                     headers={'Content-Disposition': 'attachment;filename=count.json'})
+

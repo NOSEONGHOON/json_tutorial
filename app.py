@@ -7,5 +7,5 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello from Flask!'
+    return '안녕? 반가워! 내 이름은 노성훈이야!!'
 
